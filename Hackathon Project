@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Ukachi Wisdom | Portfolio</title>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600&family=Open+Sans&display=swap" rel="stylesheet">
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Open Sans', sans-serif;
+      background: #ffffff;
+      color: #333;
+    }
+
+    header.hero {
+      background: linear-gradient(to right, #2572be, #3498db);
+      color: #070000;
+      padding: 3rem 1rem;
+      text-align: center;
+    }
+
+    .hero-content img {
+      border-radius: 50%;
+      border: 4px solid rgb(255, 255, 255);
+      margin-bottom: 1rem;
+    }
+
+    .highlight {
+      color: #dfcdcd;
+    }
+
+    .cta-button {
+      display: inline-block;
+      margin-top: 1rem;
+      padding: 0.6rem 1.2rem;
+      background: #0269df;
+      color: #000;
+      text-decoration: none;
+      font-weight: bold;
+      border-radius: 5px;
+    }
+
+    section {
+      padding: 2rem 1.5rem;
+      max-width: 900px;
+      margin: auto;
+    }
+
+    h2 {
+      color: #2c3e50;
+      border-bottom: 2px solid #3498db;
+      padding-bottom: 0.4rem;
+    }
+
+    .skills-grid div {
+      margin-bottom: 1rem;
+    }
+
+    .skill-bar {
+      background: #ddd;
+      border-radius: 25px;
+      overflow: hidden;
+      margin-top: 0.3rem;
+    }
+
+    .skill-bar-fill {
+      height: 18px;
+      background: #3498db;
+      text-align: right;
+      padding-right: 10px;
+      color: #fff;
+      line-height: 18px;
+      font-size: 12px;
+    }
+
+    .job, .project-card {
+      margin-bottom: 1.5rem;
+      background: #fff;
+      padding: 1rem;
+      border-radius: 8px;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+    }
+
+    ul {
+      padding-left: 20px;
+    }
+
+    form input, form textarea, form button {
+      width: 100%;
+      margin-top: 0.8rem;
+      padding: 0.8rem;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+    }
+
+    form button {
+      background: #3498db;
+      color: white;
+      border: none;
+      cursor: pointer;
+      font-weight: bold;
+    }
+
+    footer {
+      background: #2c3e50;
+      color: white;
+      text-align: center;
+      padding: 1rem 0;
+      margin-top: 2rem;
+    }
+
+    a.linkedin-link {
+      color: #3498db;
+      text-decoration: none;
+      font-weight: bold;
+    }
+  </style>
+</head>
+
+<body>
+  <!-- Hero Section -->
+  <header class="hero">
+    <div class="hero-content">
+      <img src="https://media.licdn.com/dms/image/v2/D4D35AQE8gMhKH5TgFQ/profile-framedphoto-shrink_200_200/B4DZgOSlC3HAAg-/0/1752586408396?e=1754902800&v=beta&t=9CbPUsytO5yDcZcc3kvKP--OZAIhOXyLpjdUNHlRtDM" alt="Profile Picture" width="150">
+      <h1>Hello, I’m <span class="highlight">Ukachi Wisdom</span></h1>
+      <p>A Project-driven Web Developer & Business Strategist.</p>
+      <a href="#contact" class="cta-button">Let’s Connect</a>
+    </div>
+  </header>
+
+  <!-- About Me Section -->
+  <section id="about">
+    <h2>About Me</h2>
+    <p>I am a passionate web developer with a strong background in business strategy, data analysis, and project management. I bring creativity, precision, and performance to every project I work on.</p>
+    <p>Connect with me on <a href="https://www.linkedin.com/in/wisdom-ukachi-52b095194" class="linkedin-link" target="_blank">LinkedIn</a>.</p>
+  </section>
+
+  <!-- Skills Section -->
+  <section class="skills">
+    <h2>Skills & Proficiency</h2>
+
+    <div>
+      <strong>HTML</strong>
+      <div class="skill-bar"><div class="skill-bar-fill" style="width: 95%;">95%</div></div>
+    </div>
+    <div>
+      <strong>CSS</strong>
+      <div class="skill-bar"><div class="skill-bar-fill" style="width: 90%;">90%</div></div>
+    </div>
+    <div>
+      <strong>JavaScript</strong>
+      <div class="skill-bar"><div class="skill-bar-fill" style="width: 80%;">80%</div></div>
+    </div>
+    <div>
+      <strong>Python</strong>
+      <div class="skill-bar"><div class="skill-bar-fill" style="width: 75%;">75%</div></div>
+    </div>
+    <div>
+      <strong>Git & GitHub</strong>
+      <div class="skill-bar"><div class="skill-bar-fill" style="width: 85%;">85%</div></div>
+    </div>
+    <div>
+      <strong>Canva</strong>
+      <div class="skill-bar"><div class="skill-bar-fill" style="width: 90%;">90%</div></div>
+    </div>
+    <div>
+      <strong>SPSS / Data Analysis</strong>
+      <div class="skill-bar"><div class="skill-bar-fill" style="width: 85%;">85%</div></div>
+    </div>
+    <div>
+      <strong>MS Office Suite</strong>
+      <div class="skill-bar"><div class="skill-bar-fill" style="width: 95%;">95%</div></div>
+    </div>
+  </section>
+
+  <!-- Education Section -->
+  <section class="education">
+    <h2>Education & Certifications</h2>
+    <ul>
+      <li>B.Sc. in Business Administration (First Class) – University of Lagos</li>
+      <li>Project Management Professional (PMP)</li>
+      <li>Google Project Management & Digital Marketing Certificates</li>
+    </ul>
+  </section>
+
+  <!-- Work Experience Section -->
+  <section class="experience">
+    <h2>Work Experience</h2>
+    <div class="job">
+      <h3>Web Developer – Dia Properties Agency (Remote)</h3>
+      <ul>
+        <li>Developed and maintained responsive real estate website</li>
+        <li>Integrated property feeds and automated social media sharing</li>
+        <li>Enhanced UI/UX, increased engagement and lead submissions</li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- Projects Section -->
+  <section class="projects">
+    <h2>Projects</h2>
+    <div class="project-card">
+      <h3>Real Estate Listing Website</h3>
+      <p>A responsive website showcasing real-time property listings with integrated WhatsApp support.</p>
+    </div>
+    <div class="project-card">
+      <h3>Leadership Campaign Page</h3>
+      <p>A simple, static site used for awareness during NYSC CDS campaigns in Ondo State.</p>
+    </div>
+  </section>
+
+  <!-- Leadership Section -->
+  <section class="leadership">
+    <h2>Leadership & Awards</h2>
+    <p>Led the NYSC Environmental CDS group in Ile-Oluji, organizing impactful community campaigns and earning national recognition.</p>
+  </section>
+
+  <!-- Contact Section -->
+  <section class="contact" id="contact">
+    <h2>Contact Me</h2>
+    <form>
+      <input type="text" placeholder="Your Name" required>
+      <input type="email" placeholder="Your Email" required>
+      <textarea placeholder="Your Message" required></textarea>
+      <button type="submit">Send Message</button>
+    </form>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>&copy; 2025 Ukachi Wisdom. All rights reserved.</p>
+  </footer>
+</body>
+</html>
